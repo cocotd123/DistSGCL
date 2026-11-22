@@ -1,11 +1,6 @@
 # DistSGCL
 
-Official PyTorch implementation and benchmark datasets for:
-
-> **DistSGCL: Uncertainty-Aware Social Recommendation via Gaussian Distributional Pre-training and Graph Contrastive Learning**  
-> Mengjie Zhao and Ying Chen\*  
-> *Kybernetika* (submitted)  
-> \*Corresponding Author: Ying Chen (`superkindnice@outlook.com`), School of Data Science, Chengdu Technological University
+PyTorch implementation of DistSGCL with benchmark datasets.
 
 ## Overview
 
@@ -83,19 +78,6 @@ python summarize_results.py
 - **Shared defaults**: embedding size `d = 64`, GCN layers `L = 3`, batch size `1024`, Adam learning rate `1e-3`, L2 weight decay `1e-4`, max epochs `120`, early-stopping patience `10` checks (20 epochs)
 - **DistSGCL defaults**: pre-training epochs `3`, GMM components `K = 8`, attention heads `H = 4`, temperature `tau = 0.2`, loss weights `lambda1 = 0.02`, `lambda2 = 0.02`, perturbation radius `eps_cl = 0.1`, Wasserstein penalty `gamma_w = 0.05`
 - **Included baselines (`models.py`)**: MF-BPR, NCF, DiffNet, LightGCN, SGL, SEPT, SimGCL, HCCF, LightGCL, and XSimGCL
-
-## Citation
-
-If you find this code or benchmark setup useful in your research, please cite:
-
-```bibtex
-@article{zhao2026distsgcl,
-  title   = {DistSGCL: Uncertainty-Aware Social Recommendation via Gaussian Distributional Pre-training and Graph Contrastive Learning},
-  author  = {Zhao, Mengjie and Chen, Ying},
-  journal = {Kybernetika},
-  year    = {2026}
-}
-```
 
 ## License
 
