@@ -1,0 +1,32 @@
+# Python byte-compiled and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Generated experiment outputs
+results/
+figures/
+
+# IDE and editor metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and checkpoints
+*.log
+*.pt
+*.pth
+*.ckpt
